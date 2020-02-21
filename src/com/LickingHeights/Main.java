@@ -20,5 +20,6 @@ public class Main {
 
         hours = minutes <= 60 ? hours++ : hours ;
         hours = hours%12;
+        minutes = minutes%60;
     }
 }
